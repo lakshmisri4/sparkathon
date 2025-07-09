@@ -1,0 +1,9 @@
+[
+    {
+      "email": "user1@example.com",
+      "password": "secret123",
+      "otp": null,
+      "otpExpiresAt": null
+    }
+  ]
+  
