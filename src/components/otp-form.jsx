@@ -1,5 +1,5 @@
 "use client"
-
+import Link from 'next/link'
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { toast } from "sonner"
@@ -75,8 +75,8 @@ export function InputOTPForm() {
             </FormItem>
           )}
         />
-
-        <Button type="submit">Submit</Button>
+        <Link href="/sample">
+        <Button type="submit">Submit</Button></Link>
       </form>
     </Form>
   )
