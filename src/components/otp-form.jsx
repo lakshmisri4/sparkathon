@@ -4,6 +4,7 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { toast } from "sonner"
 import { z } from "zod"
+import { useRouter } from 'next/navigation';
 
 import { Button } from "@/components/ui/button"
 import {
@@ -28,6 +29,7 @@ const FormSchema = z.object({
 })
 
 export function InputOTPForm() {
+  const router = useRouter();
   const form = useForm({
     resolver: zodResolver(FormSchema),
     defaultValues: {

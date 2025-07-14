@@ -33,7 +33,7 @@ export async function POST(req) {
 
   try {
     const data = await resend.emails.send({
-      from: "noreply@yourdomain.com",
+      from: "otp@resend.dev",
       to: email,
       subject: "Your OTP Code",
       html: `<p>Your OTP is <strong>${otp}</strong>. It expires in 5 minutes.</p>`,

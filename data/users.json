@@ -2,8 +2,8 @@
   {
     "email": "23102110@rmd.ac.in",
     "password": "secret123",
-    "otp": null,
-    "otpExpiresAt": null
+    "otp": "473293",
+    "otpExpiresAt": 1752237652661
   },
   {
     "email": "23102086@rmd.ac.in",
